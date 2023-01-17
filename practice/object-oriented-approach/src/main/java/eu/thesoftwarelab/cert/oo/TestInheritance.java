@@ -4,7 +4,7 @@ package eu.thesoftwarelab.cert.oo;
  * This class shows how method overriding and instance fields hiding works in Java.
  * @author Manolis Georgopoulos
  */
-public class TestInheritance {
+class TestInheritance {
 
     public static void main(String[] args) {
         Animal tiger1 = new Tiger("tiger 1");
