@@ -1,7 +1,7 @@
 package eu.thesoftwarelab.cert.oo;
 
 /**
- * This class shows how method overriding and instance fields hiding works in Java.
+ * This class shows how method overriding and instance fields hiding works.
  * @author Manolis Georgopoulos
  */
 class TestInheritance {
