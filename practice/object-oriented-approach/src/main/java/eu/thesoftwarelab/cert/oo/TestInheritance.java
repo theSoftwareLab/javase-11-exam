@@ -7,11 +7,11 @@ package eu.thesoftwarelab.cert.oo;
 class TestInheritance {
 
     public static void main(String[] args) {
-        Animal tiger1 = new Tiger("tiger 1");
+        Animal tiger1 = new Tiger("Tiger 1");
         tiger1.size = 5;
         tiger1.printSize();
 
-        Tiger tiger2 = new Tiger("tiger 2");
+        Tiger tiger2 = new Tiger("Tiger 2");
         tiger2.size = 5;
         tiger2.printSize();
     }
