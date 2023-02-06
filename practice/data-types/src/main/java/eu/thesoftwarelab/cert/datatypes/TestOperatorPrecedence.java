@@ -15,15 +15,15 @@ class TestOperatorPrecedence {
     private void testPrecedence() {
         int k = 1;
         boolean b = k-- > 0;
-        System.out.println(b);
+        System.out.println("k-- > 0 = " + b);
     }
 
     private void testPrecedence2() {
         int a = 0;
         if (a++ == a++) {
-            System.out.println("equals");
+            System.out.println("a++ == a++ true");
         } else {
-            System.out.println("not equals");
+            System.out.println("a++ == a++ false");
         }
     }
 
