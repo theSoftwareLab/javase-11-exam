@@ -30,7 +30,7 @@ class TestOperatorPrecedence {
 
     private void testPrecedence3() {
         boolean a = false, b = false, c = false, d = false;
-        boolean expression = (a = false) || (b = true) && (c = true) || (d = true);
+        boolean expression = (a = false) || (b = true) || (c = false) && (d = true);
         System.out.println("expression = " + expression);
         System.out.println("a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
     }
