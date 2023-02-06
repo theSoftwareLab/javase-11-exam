@@ -10,6 +10,7 @@ class TestOperatorPrecedence {
         TestOperatorPrecedence op = new TestOperatorPrecedence();
         op.testPrecedence();
         op.testPrecedence2();
+        op.testPrecedence3();
     }
 
     private void testPrecedence() {
@@ -25,6 +26,13 @@ class TestOperatorPrecedence {
         } else {
             System.out.println("a++ == a++ false");
         }
+    }
+
+    private void testPrecedence3() {
+        boolean a = false, b = false, c = false, d = false;
+        boolean expression = (a = false) || (b = true) && (c = true) || (d = true);
+        System.out.println("expression = " + expression);
+        System.out.println("a = " + a + ", b = " + b + ", c = " + c + ", d = " + d);
     }
 
 }
