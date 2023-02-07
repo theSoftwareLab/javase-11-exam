@@ -13,7 +13,9 @@ class TestDeque {
 
         // *** Queue methods ***
         deque.add(1);
-        deque.offer(1);
+        deque.offer(2);
+        deque.offerFirst(0);
+        deque.offerLast(3);
         deque.remove();
         deque.poll();
         deque.element();
