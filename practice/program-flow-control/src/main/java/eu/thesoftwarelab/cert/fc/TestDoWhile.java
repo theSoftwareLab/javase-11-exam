@@ -8,7 +8,7 @@ package eu.thesoftwarelab.cert.fc;
 class TestDoWhile {
 
     public static void main(String[] args) {
-        // do-while executes at least once. this is not tru for normal while
+        // do-while executes at least once. this is not true for normal while
         var x = 1;
         do {
             System.out.println(x);
