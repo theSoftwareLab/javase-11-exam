@@ -12,6 +12,8 @@ class TestIntegers {
 
         Double d1 = 1_000_000.0;
         System.out.println(d1 == i2);
+
+        System.out.println(1.0 == 1);
     }
 
 }
