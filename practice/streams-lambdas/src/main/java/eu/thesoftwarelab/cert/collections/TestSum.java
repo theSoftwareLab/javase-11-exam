@@ -2,6 +2,7 @@ package eu.thesoftwarelab.cert.collections;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.IntStream;
 
 /**
  * @author mgeorgopoulos
@@ -13,6 +14,10 @@ public class TestSum {
     double sumDouble = grades.stream().mapToDouble(g -> g).sum();
     int sumInt = grades.stream().mapToInt(Double::intValue).sum();
     System.out.println(sumDouble + " " + sumInt);
+
+    IntStream intStream = IntStream.range(1, 5);
+    double avg = intStream.average().getAsDouble();
+    System.out.println(avg);
   }
 
 }
